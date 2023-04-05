@@ -15,4 +15,8 @@ defmodule Codingbat do
   def hello do
     :world
   end
+
+  def sum(x,y) do
+    x+y
+  end
 end
