@@ -42,25 +42,35 @@ defmodule WarmupOneMarine do
   def near_hundred(n) do
     distance100 = abs(100-n)
     distance200 = abs(200-n)
-    (distance100<=10) or (distance200<=10)
-  end
-
-  def pos_neg(a,b,negative) do
     cond do
-      not(negative) and ((a<0 and b>=0) or (a>=0 and b<0))-> true
-      negative and (a<0 and b<0) -> true
+      (distance100<=10) or (distance200<=10) -> true
       true -> false
     end
   end
 
-  def not_string(str) do
-    is_not = String.slice(str,0..3) =="not "
-    if(is_not) do
-      str
-    end
-    else do
-      "not " <> str
+  def pos_neg(a,b,negative) do
+    cond do
+      !negative && ((a<0 && b>=0) || (a>=0 && b<0))-> true
+      negative && (a<0 && b<0) -> true
+      true -> false
     end
   end
+
+
+
+  #def not_string(str) do
+  #  try do
+  #    [a,b] = str.split
+  #  rescue
+
+  #  is_not = (String.slice(str,0..3) =="not ")
+  #  if(is_not) do
+  #    str
+  #  end
+  #  else do
+  #    "not " <> str
+  #  end
+  #end
+
 
 end
