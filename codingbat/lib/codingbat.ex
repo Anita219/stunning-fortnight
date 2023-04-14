@@ -16,7 +16,7 @@ defmodule Codingbat do
     :world
   end
 
-  def sum(x,y) do
-    x+y
+  def sum(x, y) do
+    x + y
   end
 end
