@@ -7,10 +7,16 @@ defmodule Logic2 do
     end
   end
 
-  def lone_sum(a,b,c) do
+  ## trying enum and recursion, not working though
+  # because enum.uniq keeps the "first duplicate"
+  # def lone_sum(a,b,c) do
+  #  list = [a,b,c]
+  #  list = Enum.uniq(list)
+  #  sum(list)
+  # end
 
+  # def sum([]), do: 0
+  # def sum([h|t]), do: h + sum(t)
 
-  end
-
-  # https://codingbat.com/prob/p118406
+  ##
 end

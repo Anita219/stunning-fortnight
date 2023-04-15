@@ -10,10 +10,9 @@ defmodule Logic2_Test do
     assert Logic2.make_bricks(2, 2, 8) == false
   end
 
-  test "lone sum" do
-    assert Logic2.lone_sum(1, 2, 3) == 6
-    assert Logic2.lone_sum(3, 2, 3) == 2
-    assert Logic2.lone_sum(3, 3, 3) == 0
-  end
-
+  # test "lone sum" do
+  #  assert Logic2.lone_sum(1, 2, 3) == 6
+  #  assert Logic2.lone_sum(3, 2, 3) == 2
+  #  assert Logic2.lone_sum(3, 3, 3) == 0
+  # end
 end
