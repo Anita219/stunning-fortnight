@@ -21,9 +21,8 @@ defmodule Logic1_Test do
   end
 
   test "caught_speeding" do
-    assert Logic1.caught_speeding(60,false) == 0
-    assert Logic1.caught_speeding(65,false) == 1
-    assert Logic1.caught_speeding(65,True) == 0
+    assert Logic1.caught_speeding(60, false) == 0
+    assert Logic1.caught_speeding(65, false) == 1
+    assert Logic1.caught_speeding(65, True) == 0
   end
-
 end

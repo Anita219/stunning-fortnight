@@ -8,12 +8,9 @@ defmodule String2test do
     assert String2.double_char('Hi-There') == 'HHii--TThheerree'
   end
 
-  #test "count hi" do
+  # test "count hi" do
   #  assert String2.count_hi('abc hi ho')==1
   #  assert String2.count_hi('ABChi hi')==2
   #  assert String2.count_hi('hihi')==2
-  #end
-
-
-
+  # end
 end
