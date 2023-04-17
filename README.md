@@ -4,6 +4,18 @@ Welcome to my Journey with Elixir. In the first round, I did the coding bat exer
 
 
 Done: 
-- Warmup1 (DONE)
-- Logic1 (nur cigar_party und date_fashion gemacht)
-- Logic2 (...)
+- Warmup1   (DONE)
+- Logic1    (DONE)
+- String1   (DONE)
+
+Doing:
+
+- Logic2    (...)
+- String2   (...)
+
+TODO:
+
+- Warmup2   (TODO)
+- list1     (TODO)
+- Warmup2   (TODO)
+- list2     (TODO)
