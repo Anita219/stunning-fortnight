@@ -7,8 +7,10 @@ Done:
 - Warmup1   (DONE)
 - Logic1    (DONE)
 - String1   (DONE)
+- list1     (DONE)
 
 Doing:
+
 
 - Logic2    (...)
 - String2   (...)
@@ -16,6 +18,5 @@ Doing:
 TODO:
 
 - Warmup2   (TODO)
-- list1     (TODO)
 - Warmup2   (TODO)
 - list2     (TODO)
