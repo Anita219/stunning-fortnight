@@ -49,46 +49,53 @@ defmodule Logic1 do
     end
   end
 
-  def sorta_sum(a,b) do
+  def sorta_sum(a, b) do
     sum = a + b
+
     cond do
-      sum<10 || sum>19 ->sum
-       true -> 20
+      sum < 10 || sum > 19 -> sum
+      true -> 20
     end
   end
+
   def alarm_clock(day, vacation) do
-    [weekday,weekend] = settings_alarm_clock(vacation)
+    [weekday, weekend] = settings_alarm_clock(vacation)
+
     cond do
-      day !=0 && day !=6 -> weekday
+      day != 0 && day != 6 -> weekday
       true -> weekend
     end
   end
+
   def settings_alarm_clock(vacation) do
     cond do
-      not(vacation) -> ['7:00','10:00']
-      true ->  ['10:00','off']
+      not vacation -> ['7:00', '10:00']
+      true -> ['10:00', 'off']
     end
   end
-  def love6(a,b) do
+
+  def love6(a, b) do
     cond do
       a == 6 || b == 6 -> true
-      abs(a + b) == 6 || abs(a-b)==6 -> true
-      true -> false
-    end
-  end
-  def in1to10(n, outside_mode) do
-    cond do
-      not(outside_mode) && (n >= 1 && n <= 10)  -> true
-      outside_mode && (n <= 1 || n >= 10) -> true
-      true -> false
-    end
-  end
-  def near_ten(nb) do
-    nb_reduced = rem(nb,10)
-    cond do
-      nb_reduced >= 8 || nb_reduced <=2 ->true
+      abs(a + b) == 6 || abs(a - b) == 6 -> true
       true -> false
     end
   end
 
+  def in1to10(n, outside_mode) do
+    cond do
+      not outside_mode && (n >= 1 && n <= 10) -> true
+      outside_mode && (n <= 1 || n >= 10) -> true
+      true -> false
+    end
+  end
+
+  def near_ten(nb) do
+    nb_reduced = rem(nb, 10)
+
+    cond do
+      nb_reduced >= 8 || nb_reduced <= 2 -> true
+      true -> false
+    end
+  end
 end
