@@ -1,6 +1,6 @@
 defmodule WarmupOneTest do
   use ExUnit.Case
-  doctest WarmupOneMarine
+  doctest WarmupOne
 
   # Codingbat Warmup-1
 

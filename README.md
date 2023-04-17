@@ -11,12 +11,10 @@ Done:
 
 Doing:
 
-
+- Warmup2   (...)
 - Logic2    (...)
 - String2   (...)
 
 TODO:
 
-- Warmup2   (TODO)
-- Warmup2   (TODO)
 - list2     (TODO)
