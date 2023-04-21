@@ -8,6 +8,7 @@ Done:
 - Logic1    (DONE)
 - String1   (DONE)
 - list1     (DONE)
+- list2     (DONE)
 
 Doing:
 
@@ -15,6 +16,4 @@ Doing:
 - Logic2    (...)
 - String2   (...)
 
-TODO:
 
-- list2     (TODO)
